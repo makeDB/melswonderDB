@@ -1,8 +1,8 @@
 all:
-	rustc src/main.rs
+	cargo run
 
 fclean:
-	rm -r main
+	cargo clean
 
 re: fclean all
 	
